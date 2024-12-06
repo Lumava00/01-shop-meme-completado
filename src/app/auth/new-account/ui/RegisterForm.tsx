@@ -3,18 +3,14 @@
 import clsx from 'clsx';
 import Link from 'next/link';
 import { SubmitHandler, useForm } from 'react-hook-form';
-
 import { login, registerUser } from '@/actions';
 import { useState } from 'react';
-
 
 type FormInputs = {
   name: string;
   email: string;
   password: string;  
 }
-
-
 
 export const RegisterForm = () => {
 

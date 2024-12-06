@@ -9,8 +9,6 @@ interface Props {
   }
 }
 
-
-
 export default async function ProductPage({ params }: Props) {
 
   const { slug } = params;
