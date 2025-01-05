@@ -54,7 +54,7 @@ export const placeOrder = async (
 
       return totals;
     },
-    { subTotal: 0, tax: 0, total: 0 }
+    { subTotal: 0, tax: 0, total: 0 } 
   );
 
   // Crear la transacción de base de datos
